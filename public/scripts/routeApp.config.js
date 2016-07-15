@@ -6,11 +6,11 @@ $routeProvider
     controller: 'BadmintonController'
   })
   .when('/womensgymnastics', {
-    templateUrl: 'views/womgym.html',
+    templateUrl: 'views/womensgymnastics.html',
     controller: 'GymnasticsController'
   })
   .when('/tabletennis', {
-    templateUrl: 'views/tabten.html',
+    templateUrl: 'views/tabletennis.html',
     controller: 'TableTennisController'
   })
   .when('/taekwondo', {
